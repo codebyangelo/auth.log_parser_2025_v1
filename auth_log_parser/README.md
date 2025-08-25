@@ -1,4 +1,4 @@
-# auth.log_parser
+# auth.log_parser_2025_v1
 
 **A minimalist, practical, and scalable script that parses `/var/log/auth.log` and extracts security-relevant events for triage and analysis in a SOC environment.**
 
