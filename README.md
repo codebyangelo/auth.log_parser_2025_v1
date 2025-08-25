@@ -52,7 +52,7 @@ For most outputs (plain text, tagged, JSON), the tool operates in a highly memor
 ### 2. Batch Mode (`--summary` or `--report`)
 For outputs that require a complete view of all events (like `--summary` or `--report`), the tool first streams all events into a list in memory.
 1.  **Collect:** All events from the log file are parsed and collected into a list.
-2.  **Stateful Tagging (`tagging.py`):** The complete list of events is passed to the tagging module, which applies advanced tags by analyzing relationships between events (e.g., `[MULTI_FAIL]` a`[TIMING_ANOMALY]`.).
+2.  **Stateful Tagging (`tagging.py`):** The complete list of events is passed to the tagging module, which applies advanced tags by analyzing relationships between events (e.g., `[MULTI_FAIL]` and `[TIMING_ANOMALY]`.).
 3.  **Filter & Format:** The full, tagged list is then filtered and formatted into the final summary or report.
 
 ## Features
