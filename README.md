@@ -97,3 +97,5 @@ For outputs that require a complete view of all events (like `--summary` or `--r
 *   **Minimalism**: No GUI, no fancy dashboards, just raw clarity.
 *   **Practicality**: Analyst-first. Results should be visible in under 5 seconds.
 *   **Efficiency**: Scalable and memory-light by default, easy to embed in a pipeline.
+
+**Copyright 2025 Angelo Ayton**
