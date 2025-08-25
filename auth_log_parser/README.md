@@ -16,6 +16,13 @@ This tool is a command-line utility designed to help security analysts, system a
 
 ## Getting Started
 
+## Installation
+
+```git clone https://github.com/codebyangelo/auth.log_parser_2025_v1.git``` 
+
+```cd auth.log_parser_2025_v1/auth_log_parser```
+
+
 To get started, you can run the tool from the command line. The most basic usage is to point it at a log file.
 
 ```bash
