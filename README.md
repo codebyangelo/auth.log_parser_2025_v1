@@ -23,7 +23,7 @@ This tool is a command-line utility designed to help security analysts, system a
 ```cd auth.log_parser_2025_v1/auth_log_parser```
 
 
-To get started, you can run the tool from the command line. The most basic usage is to point it at a log file.
+To get started, you can run the tool from the command line in the main directory. The most basic usage is to point it at a log file.
 
 ```bash
 python3 auth_log_parser/main.py --logfile /path/to/your/auth.log
