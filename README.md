@@ -32,7 +32,8 @@ python3 auth_log_parser/main.py --logfile /path/to/your/auth.log
 For example, to analyze the test log file included in this project with tags and a summary, you would run:
 
 ```bash
-python3 auth_log_parser/main.py --logfile test_auth.log --tagged --summary
+python3 auth_log_parser/main.py --logfile auth_log_parser/test_auth.log --tagged --summary
+
 ```
 
 ## How It Works
