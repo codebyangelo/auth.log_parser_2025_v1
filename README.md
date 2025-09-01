@@ -18,22 +18,25 @@ This tool is a command-line utility designed to help security analysts, system a
 
 ### Installation
 
-```git clone https://github.com/codebyangelo/auth.log_parser_2025_v1.git``` 
-
-```cd auth.log_parser_2025_v1/auth_log_parser```
+```
+git clone https://github.com/codebyangelo/auth.log_parser_2025_v1.git 
+cd auth.log_parser_2025_v1/auth_log_parser
+```
 
 
 
 To get started, you can run the tool from the command line in the main directory. The most basic usage is to point it at a log file.
 
-```bash
+bash
+```
 python3 auth_log_parser/main.py --logfile /path/to/your/auth.log
 ```
 
 
 For example, to analyze the test log file included in this project with tags and a summary, you would run:
 
-```bash
+bash
+```
 python3 auth_log_parser/main.py --logfile auth_log_parser/test_auth.log --tagged --summary
 
 ```
